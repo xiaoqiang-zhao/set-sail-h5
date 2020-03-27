@@ -9,7 +9,7 @@
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
     "qa": "node build/build.js --qa",
-    "pm2": "pm2 start server --name h5-set-sail:9090"
+    "pm2": "pm2 start server --name h5-set-sail:8080"
   },
   "dependencies": {
     "axios": "^0.16.2",
